@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hoverEf {
+  right: -100%;
+  transition: all 0.3s;
+}
+
+.hoverbtn:hover .hoverEf {
+  transition: all 1s;
+  right: -0%;
+}

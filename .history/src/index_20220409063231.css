@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hoverEf {
+  right: -9999999999%;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.hoverbtn:hover .hoverEf {
+  right: -0%;
+}

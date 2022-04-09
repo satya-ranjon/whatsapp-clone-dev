@@ -1,0 +1,11 @@
+.sidebar__header {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar__header__two {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 2rem;
+}
