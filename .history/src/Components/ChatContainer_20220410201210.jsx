@@ -1,0 +1,14 @@
+import React from "react";
+import { useParams } from "react-router";
+import ChatFooter from "./ChatFooter";
+import ChatHeader from "./ChatHeader";
+
+export default function ChatContainer() {
+  const { } = useParams()
+  return (
+    <div className="text-white w-full relative">
+      <ChatHeader />
+      <ChatFooter />
+    </div>
+  );
+}
