@@ -1,0 +1,17 @@
+import React from "react";
+import ChatMesseage from "./ChatMesseage";
+
+export default function ChatBox({ ChatMesseages }) {
+  console.log(ChatMesseages);
+  return (
+    <div className=" overflow-scroll h-[52.2rem] cursor-pointer scrollbar scrollbar-thumb-gray-400 scrollbar-thin px-5 xl:px-40 pt-80">
+      <ChatMesseage />
+      <div className="w-full flex justify-end">
+        <div className="w-fit max-w-md p-2 rounded-md rounded-br-xl m-3 rounded-tr-none bg-[#005c4b] h-fit text-sm text-gray-200 pr-14 relative">
+          kicu na ❤
+          <div className=" absolute right-2 bottom-0 text-[10px]">9:52 PM </div>
+        </div>
+      </div>
+    </div>
+  );
+}
