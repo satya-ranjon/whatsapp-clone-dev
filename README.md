@@ -3,5 +3,5 @@
   <a href="https://whatsapp-clone-dev.netlify.app/" target="_blank">Demo Link - - -</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./src/assets/p.png" />
+  <img alt="Demo" src="./public/p.png" />
 </div>
